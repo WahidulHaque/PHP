@@ -1,0 +1,22 @@
+[
+    {
+        "Name": "Fahim Tayebee",
+        "Email": "fahim72@gmail.com",
+        "Password": "zxcvbn@#$",
+        "Username": "fahim89",
+        "Gender": "Male",
+        "DOB": "12\\4\\1997",
+        "File_Path": "",
+        "Role": 2
+    },
+    {
+        "Name": "Wahidul ASD",
+        "Email": "neon2000@gmail.com",
+        "Password": "qweRTY@#$",
+        "Username": "wahid90",
+        "Gender": "Male",
+        "DOB": "12\/4\/1997",
+        "File_Path": "w1b.png",
+        "Role": 1
+    }
+]
