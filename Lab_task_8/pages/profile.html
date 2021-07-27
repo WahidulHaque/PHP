@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="../assets/lib/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+
+    <!-- Script Area -->
+    <script src="../assets/js/jquery-3.5.1.js"></script>
+    <script src="../assets/lib/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+    <section class="main">
+
+        <!-- SIDEBAR START -->
+        <div class="sidebar">
+
+            <!-- SIDEBAR LOGO -->
+            <div class="logo_content">
+                <div class="logo">
+                    <i class='bx bxl-firebase'></i>
+                    <div class="logo_name">Ecommerce</div>
+                </div>
+                <i class='bx bx-menu' id="btn-sidebar"></i>
+            </div>
+
+            <!-- MENU ITEMS -->
+            <ul class="nav_list list-unstyled">
+                <li>
+                    <a href="index.html">
+                        <i class='bx bx-grid-alt'></i>
+                        <span class="links_name">Dashboard</span>
+                    </a>
+                    <span class="tooltip-x">Dashboard</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-window-alt'></i>
+                        <span class="links_name">Website Info</span>
+                    </a>
+                    <span class="tooltip-x">Website Info</span>
+                </li>
+                <li>
+                    <a href="pages/base.html">
+                        <i class='bx bxs-user-detail'></i>
+                        <span class="links_name">Users</span>
+                    </a>
+                    <span class="tooltip-x">Users</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-category'></i>
+                        <span class="links_name">Category</span>
+                    </a>
+                    <span class="tooltip-x">Category</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxl-product-hunt'></i>
+                        <span class="links_name">Products</span>
+                    </a>
+                    <span class="tooltip-x">Products</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-user-pin'></i>
+                        <span class="links_name">Salesmans</span>
+                    </a>
+                    <span class="tooltip-x">Salesmans</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-user-circle'></i>
+                        <span class="links_name">Customers</span>
+                    </a>
+                    <span class="tooltip-x">Customers</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-list-check'></i>
+                        <span class="links_name">Orders</span>
+                    </a>
+                    <span class="tooltip-x">Orders</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-coupon'></i>
+                        <span class="links_name">Coupons</span>
+                    </a>
+                    <span class="tooltip-x">Coupons</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-store'></i>
+                        <span class="links_name">Invetory</span>
+                    </a>
+                    <span class="tooltip-x">Invetory</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-comment-detail'></i>
+                        <span class="links_name">Reviews</span>
+                    </a>
+                    <span class="tooltip-x">Reviews</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxl-blogger'></i>
+                        <span class="links_name">Blogs</span>
+                    </a>
+                    <span class="tooltip-x">Blogs</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-report'></i>
+                        <span class="links_name">Reports</span>
+                    </a>
+                    <p class="tooltip-x">Reports</p>
+                </li>
+            </ul>
+
+        </div>
+
+        <!-- BODY CONTENT -->
+        <div class="home_content">
+
+            <!-- TOPBAR AREA -->
+            <div class="topbar">
+                <div class="search_box">
+                    <i class='bx bx-search-alt'></i>
+                    <input type="text" placeholder="Search" class="search">
+                </div>
+
+                <!-- PROFILE -->
+                <div class="profile_content">
+                    <div class="profile">
+                        <div class="profile_details">
+                            <img src="https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png"
+                                alt="">
+                            <div class="name_job">
+                                <div class="name">Steven Smith</div>
+                                <div class="job">Super Admin</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content_area">
+                <div class="row db-toprow">
+                    <div class="container">
+                        <div class="row gutters-sm">
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex flex-column align-items-center text-center">
+                                            <img src="https://bootdey.com/img/Content/avatar/avatar7.png"
+                                                alt="Admin" class="rounded-circle" width="150">
+                                            <div class="mt-3">
+                                                <h4>John Doe</h4>
+                                                <p class="text-secondary mb-1">Full Stack Developer</p>
+                                                <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <h6 class="mb-0">Full Name</h6>
+                                            </div>
+                                            <div class="col-sm-9 text-secondary">
+                                                Kenneth Valdez
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <h6 class="mb-0">Email</h6>
+                                            </div>
+                                            <div class="col-sm-9 text-secondary">
+                                                fip@jukmuh.al
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <h6 class="mb-0">Phone</h6>
+                                            </div>
+                                            <div class="col-sm-9 text-secondary">
+                                                (239) 816-9029
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <h6 class="mb-0">Mobile</h6>
+                                            </div>
+                                            <div class="col-sm-9 text-secondary">
+                                                (320) 380-4539
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <h6 class="mb-0">Address</h6>
+                                            </div>
+                                            <div class="col-sm-9 text-secondary">
+                                                Bay Area, San Francisco, CA
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <a class="btn btn-info" href="updateProfile.html">Edit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="../assets/js/script.js"></script>
+
+</body>
+
+</html>
