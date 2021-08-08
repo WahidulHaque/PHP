@@ -46,7 +46,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `gender`, `username`, `email`, `password`, `phone`, `address`, `image`, `dob`, `role`) VALUES
-(6, 'Fahim Tayebee', 0, 'afridy1404', 'fahim.afridy1404@gmail.com', '32$#@1456', NULL, NULL, NULL, '2021-08-11 20:37:50', 0);
+(6, 'Wahid Neon', 0, 'wahidneon', 'w.neon2000@gmail.com', 'wahid@1234.', NULL, NULL, NULL, '2021-08-11 20:37:50', 0);
 
 --
 -- Indexes for dumped tables
