@@ -1,0 +1,141 @@
+.body
+{
+	background-color: #f2f2f2;
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+	vertical-align: middle;
+}
+form
+{
+	position: relative;
+	border-radius: 12px;
+	border: 2px solid #008CBA;
+	background-color: #ffffff;
+	padding: 20px 5px 30px 5px;
+	
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: left;
+	
+	transition-duration: 0.2s;
+}
+
+
+
+.settings
+{
+	width:150px;
+	background-color: white; 
+	color: black;
+	border-radius: 12px;
+	border: 2px solid #008CBA;
+	padding: 5px 30px;
+	text-align: center;
+	font-size: 16px;
+	transition-duration: 0.4s;
+    cursor: pointer;
+}
+input[type="submit"].settings:hover
+{
+	width:250px;
+	background-color: #008CBA; 
+    color: white; 
+    border: 2px solid #008CBA;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.logout
+{
+	width:150px;
+	background-color: white; 
+	color: black;
+	border-radius: 12px;
+	border: 2px solid #008CBA;
+	padding: 5px 30px;
+	text-align: center;
+	font-size: 16px;
+	transition-duration: 0.4s;
+    cursor: pointer;
+}
+input[type="submit"].logout:hover
+{
+	width:120px;
+	background-color: red; 
+    color: white; 
+    border: 2px solid red;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.tf
+{	
+	width:275px;
+	padding: 5px 5px 5px 5px;
+	border: 2px solid #ccc;
+	border-radius: 12px;
+	font-family: "Bradley Hand", cursive;
+	font-size: 14px;
+	text-align: left;
+	
+	transition-duration: 0.4s;
+}
+input[type="text"].tf:hover
+{
+	border: 2px solid red;
+}
+input[type="text"].tf:focus
+{
+	border: 2px solid red;
+}
+input[type="number"].tf:hover
+{
+	border: 2px solid red;
+}
+input[type="number"].tf:focus
+{
+	border: 2px solid red;
+}
+input[type="mail"].tf:hover
+{
+	border: 2px solid red;
+}
+input[type="mail"].tf:focus
+{
+	border: 2px solid red;
+}
+
+.text
+{
+	font-family: Comic Sans MS;
+	font-size: 15px;
+	font-style: bold;
+	color: #008CBA;
+}
+
+.openbtn
+{	
+	width:120px;
+	height:30px;
+	background-color: black;
+	color: white;
+	border-radius: 12px;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 16px;
+	transition-duration: 0.4s;
+    cursor: pointer;
+}
+.openbtn:hover
+{
+	width:140px;
+	background-color: #FFFFF0; 
+    color: black; 
+    border: 2px solid black;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
