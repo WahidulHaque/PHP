@@ -1,0 +1,193 @@
+.container 
+{ 
+	overflow: hidden; 
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 95%
+}
+
+.floatRightTop 
+{ 
+	/*overflow: scroll;*/
+	padding-top: 1%;
+	width:80%;
+	float: right; 
+	margin-bottom: auto;
+	height: 60%;
+}
+
+.floatLeftDown 
+{ 
+	display: block;
+	/*overflow: scroll;*/
+	padding-top: 3%;
+	width: 20%; 
+	float: left; 
+	margin-bottom: auto;
+	height: 60%;
+}
+
+
+.td1
+{
+	text-align: left;
+	vertical-align: middle;
+	
+	height: 45px;
+	width: calc(100%);
+	
+	font-family: Comic Sans MS;
+	font-size: 16px;
+	font-style: bold;
+}
+
+#empTable
+{
+	border-collapse: collapse;
+    width: 100%;
+	/*height: calc(100%);*/
+	height: 30px;
+	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	font-style: bold;
+	
+	
+}
+#empTable th 
+{
+	border: 2px solid #ddd;
+	padding: 8px;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+
+}
+#empTable caption 
+{
+	border: 2px solid #ddd;
+	padding: 8px;
+	/*position: -webkit-sticky; /* Safari 
+	position: sticky;*/
+	top: 0;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	background-color: #008B8B;
+	color: white;
+}
+#empTable td
+{
+	border: 2px solid #000000;
+	padding: 8px;
+}
+#empTable tr:nth-child(even) 
+{
+	background-color: #f2f2f2;
+}
+#empTable tr:nth-child(odd) 
+{
+	background-color: #E6E6FA;
+}
+#empTable tr:hover 
+{
+	background-color: #4682B4;
+}
+#empTable th 
+{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	background-color: #008B8B;
+	color: white;
+}
+
+.scrollit /*add table scrolling */
+{
+    overflow:scroll;
+    height:450px;
+	
+}
+
+
+.printbtn
+{	
+	width:120px;
+	height:35px;
+	background-color: white;
+	color: black;
+	border-radius: 12px;
+	border: 2px solid #008CBA;
+	text-align: center;
+	font-size: 16px;
+	transition-duration: 0.4s;
+    cursor: pointer;
+}
+.printbtn:hover
+{
+	background-color: Olive; 
+    color: white; 
+    border: 2px solid Olive;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.advsrchbtn
+{	
+	width:160px;
+	height:35px;
+	background-color: white;
+	color: black;
+	border-radius: 12px;
+	border: 2px solid #008CBA;
+	text-align: center;
+	font-size: 16px;
+	transition-duration: 0.4s;
+    cursor: pointer;
+}
+.advsrchbtn:hover
+{
+	background-color: #5F9EA0; 
+    color: white; 
+    border: 2px solid #5F9EA0;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.tf
+{	
+	width:calc(85%);
+	padding: 5px 5px 5px 5px;
+	border: 2px solid #ccc;
+	border-radius: 12px;
+	font-family: "Consolas";
+	font-size: 15px;
+	text-align: center;
+	
+	transition-duration: 0.4s;
+}
+input[type="text"].tf:hover
+{
+	border: 2px solid #008CBA;
+}
+input[type="text"].tf:focus
+{
+	border: 2px solid #008CBA;
+}
+input[type="number"].tf:hover
+{
+	border: 2px solid #008CBA;
+}
+input[type="number"].tf:focus
+{
+	border: 2px solid #008CBA;
+}
+input[type="mail"].tf:hover
+{
+	border: 2px solid #008CBA;
+}
+input[type="mail"].tf:focus
+{
+	border: 2px solid #008CBA;
+}
